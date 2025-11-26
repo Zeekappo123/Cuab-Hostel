@@ -16,9 +16,9 @@ function Header(){
             <div id="links">
                     <Link to = "/">Home</Link>    
                     <Link to = "/male">Male Hostel</Link>   
-                    <Link to = "/female">Female Hostel</Link>    
-                    <Link to = "/book">Booking</Link>     
+                    <Link to = "/female">Female Hostel</Link>      
                     <Link to = "/contact">Contact</Link>    
+                       <Link to = "/register">Register</Link>   
                     <button>
                           <Link to = "/login">Login</Link>  
                     </button>  

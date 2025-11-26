@@ -93,7 +93,7 @@ function Register(){
 
 
               <label>College</label> 
-              <select id='college'>
+              <select>
                 <option>College of Information and Communication Technology</option>
                  <option>College of Arts, Social and Management Sciences</option>
                   <option>College of Environmental Sciences</option>
@@ -101,8 +101,53 @@ function Register(){
                     <option>College of Natural and Applied Sciences</option>
                     <option>Bola Ajibola College of Law</option>
               </select>
-
  <br /> <br /> 
+
+ <label>Department</label>
+   <select>
+                <option> Computer Science</option>
+                <option>Accounting</option>
+                <option>Anatomy</option>
+                <option>Architecture</option>
+                <option>Biochemistry</option>
+                <option>Business Admin</option>
+                <option>Economics/O.R</option>
+                <option>Islamic Studies</option>
+                <option>Law</option>
+                <option>Mass Communication</option>
+                <option>Microbiology</option>
+                <option>Nursing</option>
+                <option>Physiology</option>
+                <option>Political Science & I.R</option>
+                <option>Archy & Biochem D/E</option>
+                
+
+             
+              </select>
+               <br /> <br /> 
+
+                <label>Level</label>
+   <select>
+                <option>100</option>
+                <option>200</option>
+                <option>300</option>
+                <option>400</option>
+                   <option>500</option>
+               
+                
+
+             
+              </select>
+               <br /> <br /> 
+
+               <label>Academic Session</label>
+               <input type='number' />
+                     <br /> <br /> 
+
+                           <label>Available Room</label>
+               <input type='number' />
+                     <br /> <br /> 
+
     
 
 
