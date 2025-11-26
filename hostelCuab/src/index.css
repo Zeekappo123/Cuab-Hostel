@@ -100,7 +100,11 @@
 }
 
 
-
+.gender-line {
+  display: flex;
+  align-items: center;
+gap: 10px;
+}
 
 
 
@@ -121,7 +125,9 @@
   width: 100%;
 }
 
-
+#college{
+  width: 100%;
+}
 #contact{
   padding-top: 70px;
       text-align: center;
@@ -210,6 +216,7 @@
   #contact a{
     color: #007bff;
     text-decoration: underline;
+
   }
 
 
@@ -291,5 +298,17 @@
 }
 
 
+.showMessage{
+     font-size: 15px;   
+    white-space: pre-line;   
+       
+}
+
+
+#show{
+     font-size: 15px;   
+    color: red;
+       
+}
 
 

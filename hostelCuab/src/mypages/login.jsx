@@ -43,10 +43,6 @@ function Login(){
 
 
 
-
-
-
-
            <Footer />
         </div>
     )

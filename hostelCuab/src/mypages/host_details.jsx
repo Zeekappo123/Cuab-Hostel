@@ -1,5 +1,5 @@
 import { useParams,Link } from "react-router-dom";
-import hostels from "../interact/hostel";
+import hostels from "../hostel.js";
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
 import { useState } from "react";
