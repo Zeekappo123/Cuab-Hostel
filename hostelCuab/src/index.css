@@ -1,3 +1,4 @@
+@import "tailwindcss";
 .container{
     max-width: 100%;
   
@@ -20,7 +21,7 @@
     height: fit-content;
     text-align: center;
     padding-top: 20px;
-
+    
 }
 
 
@@ -85,9 +86,8 @@
 
 .cards {
     display: flex;
-    padding-left: 180px;
-    gap: 50px;
-
+    padding: 15px;
+    gap: 15px;
    
 }
 

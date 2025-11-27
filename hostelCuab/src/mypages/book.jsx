@@ -11,7 +11,7 @@ function Book(){
       
              <div id='contact'>
                     
-                    <h3>Reserve a Room</h3> <br />
+                    <h3 id='find'>Reserve a Room</h3> <br />
                 
                 <div className='login'>
                        <form>

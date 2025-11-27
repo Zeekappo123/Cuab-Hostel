@@ -1,6 +1,4 @@
 .header{
-
-
     display: flex;
     text-align: center;
     background-color: white;
@@ -8,9 +6,7 @@
     width: 100%;
     padding-left: 60px;
     padding-top: 20px;
-
-
-
+    justify-content: space-between;
 }
 
 
@@ -22,7 +18,8 @@
 
 
 #links{
-    padding-left: 700px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -40,19 +37,6 @@
 }
 
 
-#links  button{
-    color: blue;
-    border: 1px solid blue;
-    background-color: white;
-    border-radius: 6px;
-    height: 45px;
-    padding: 8px 16px;
-    align-items: center;
-    justify-content: center; 
-    cursor: pointer;
-    font-size: 15px;
-
-    }
 
 
 #links button:hover{

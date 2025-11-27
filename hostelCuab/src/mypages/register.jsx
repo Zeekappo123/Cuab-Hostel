@@ -9,7 +9,10 @@ function Register(){
       <Header />
       
       <div id='contact'>
-        <h3>Student Registration</h3>
+        <div id='find'>
+          <h3>Student Registration</h3>
+        </div>
+        
         <div className='login'>
           <form >
             <h2>Personal Information</h2>

@@ -29,14 +29,14 @@ function Home(){
 
            <div className='cards'>
 
-                         <Card id={1} image = 'bowlsant.webp' name="Okeleye" price="150,000" bed="4 beds"
-                          location="opposite main library" />
+                <Card id={1} image = 'bowlsant.webp' name="Okeleye" price="150,000" bed="4 beds"
+                   location="opposite main library" />
                        
-                          <Card id={6} image = 'bowlsant.webp' name="Zakarriyyah" price="150,000" bed="4 beds"
-                          location="opposite main library" />
+                <Card id={6} image = 'bowlsant.webp' name="Zakarriyyah" price="150,000" bed="4 beds"
+                   location="opposite main library" />
 
-                        <Card id={7} image = 'bowlsant.webp' name="Lateef Adegbite" price="150,000" bed="4 beds"
-                          location="opposite main library" />
+                <Card id={7} image = 'bowlsant.webp' name="Lateef Adegbite" price="150,000" bed="4 beds"
+                    location="opposite main library" />
            </div>  <br /> <br />  
 
 

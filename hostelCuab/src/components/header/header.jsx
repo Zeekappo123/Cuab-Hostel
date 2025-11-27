@@ -1,10 +1,11 @@
 import "./header.css";
 import { Link } from "react-router-dom";
+import Button from "../button/Button";
 
 function Header(){
     return(
      
-       <div className="header">
+       <div className="header min-w-screen">
             <div>
 
                  <Link to = "/">
@@ -14,14 +15,17 @@ function Header(){
             </div>
 
             <div id="links">
-                    <Link to = "/">Home</Link>    
+                    <Link to = "/home">Home</Link>    
                     <Link to = "/male">Male Hostel</Link>   
                     <Link to = "/female">Female Hostel</Link>      
                     <Link to = "/contact">Contact</Link>    
-                       <Link to = "/register">Register</Link>   
-                    <button>
-                          <Link to = "/login">Login</Link>  
-                    </button>  
+
+                   
+                    <Link to = "/login">
+                        <Button value="Login"/>
+                    </Link>  
+                    
+
                       
             </div>
 

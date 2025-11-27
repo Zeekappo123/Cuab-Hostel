@@ -8,26 +8,24 @@ import Login from './mypages/login.jsx'
 import Register from './mypages/register.jsx'
 import SignUp from './mypages/signup.jsx'
 import HostelDetails from './mypages/host_details.jsx';
+import LandingPage from './mypages/landingpage.jsx';
 
 
 function App(){
   return(
-    <div>
+    <div >
       <Router>
         <Routes>
-          <Route path='' element = {<Home />}/>
-           <Route path='home' element = {<Home />}/>
-            <Route path='male' element = {<Male />}/>
-             <Route path='female' element = {<Female />}/>
-              <Route path='book' element = {<Book />}/>
-               <Route path='contact' element = {<Contact />}/>
-                  <Route path='signup' element = {<SignUp />}/>
-                <Route path='login' element = {<Login />}/>
-                          <Route path='register' element = {<Register />}/>
-                <Route path="hostel/:id" element={<HostelDetails />} />
-
-
-
+          <Route path='/' element={<LandingPage />} />
+          <Route path='home' element={<Home />} />
+          <Route path='male' element={<Male />} />
+          <Route path='female' element={<Female />} />
+          <Route path='book' element={<Book />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='signup' element={<SignUp />} />
+          <Route path='login' element={<Login />} />
+          <Route path='register' element={<Register />} />
+          <Route path="hostel/:id" element={<HostelDetails />} />
         </Routes>
       </Router>
     </div>

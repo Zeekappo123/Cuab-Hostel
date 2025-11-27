@@ -1,5 +1,5 @@
-import bowlsant from "../public/bowlsant.webp";
-import female from "../public/female.jpeg"
+import bowlsant from "../src/assets/images/bowlsant.webp";
+import female from "../src/assets/images/female.jpeg"
 import bed from "../src/assets/images/bed.jpeg"
 import room from "../src/assets/images/room.jpeg"
 import block from "../src/assets/images/block.jpeg"

@@ -68,7 +68,7 @@ function Signup() {
       <Header />
       
       <div id='contact'>
-        <h3>Create an account</h3>
+        <h3 id='find'>Create an account</h3>
         <div className='login'>
           <form onSubmit={validate}>
             <label>Full Name</label>
@@ -125,8 +125,10 @@ function Signup() {
               </p> <br />
 
 
-
-            <button type='submit'>Sign Up</button>  
+            <Link to="/login">
+              <button type='submit'>Sign Up</button>
+            </Link>
+              
             <br /> <br />
 
             <p>
