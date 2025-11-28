@@ -117,6 +117,7 @@ gap: 10px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
+
 #contact label,
 #contact input,
 #contact button,
@@ -155,6 +156,7 @@ gap: 10px;
   text-align: left;
   margin-bottom: 26px;
 }
+
 #contact h3{
     text-align: center;
     color: #007bff;

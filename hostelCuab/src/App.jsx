@@ -6,7 +6,6 @@ import Book from './mypages/book.jsx'
 import Contact from './mypages/contact.jsx'
 import Login from './mypages/login.jsx'
 import Register from './mypages/register.jsx'
-import SignUp from './mypages/signup.jsx'
 import HostelDetails from './mypages/host_details.jsx';
 import LandingPage from './mypages/landingpage.jsx';
 
@@ -22,7 +21,6 @@ function App(){
           <Route path='female' element={<Female />} />
           <Route path='book' element={<Book />} />
           <Route path='contact' element={<Contact />} />
-          <Route path='signup' element={<SignUp />} />
           <Route path='login' element={<Login />} />
           <Route path='register' element={<Register />} />
           <Route path="hostel/:id" element={<HostelDetails />} />

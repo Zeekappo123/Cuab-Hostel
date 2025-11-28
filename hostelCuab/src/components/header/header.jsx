@@ -20,11 +20,7 @@ function Header(){
                     <Link to = "/male">Male Hostel</Link>   
                     <Link to = "/female">Female Hostel</Link>      
                     <Link to = "/contact">Contact</Link>    
-
-                   
-                    <Link to = "/login">
-                        <Button value="Sign Out" />
-                    </Link>  
+                    <Link to = "/book">Booking</Link>  
                     
 
                       

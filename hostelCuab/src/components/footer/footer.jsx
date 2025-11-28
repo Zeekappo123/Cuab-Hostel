@@ -3,7 +3,7 @@ function Footer(){
     return(
         <div id="footer">
        
-             <p>© 2025 CUAB HOSTEL — University Accommodation Services</p>
+             <p>© 2025 ABC HOSTEL — University Accommodation Services</p>
 
         </div>
     )
