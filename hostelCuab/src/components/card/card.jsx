@@ -16,7 +16,6 @@ function Card(props){
             <div className="tags">
               <Link to= {`/hostel/${props.id}`} className='tag' id='tg'>View Details</Link>
               <span className="tag">WiFi</span>
-              <br/>
               <span className="tag">Water</span>
               <span className="tag">24/7 Security</span>
             </div>

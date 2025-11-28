@@ -6,11 +6,9 @@ import {Link} from 'react-router-dom'
 function Login(){
     return (
         <div>
-           
-           <Header />
  
             <div id='contact'>
-                <h3 id='find'>Login to your account</h3>
+                <h3 >Login to your account</h3>
                 <div className='login'>
                     <form>
                         <label>Email </label> 

@@ -1,12 +1,13 @@
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
 import HostelGrid from '../components/HostelGrid'
-import Card from "../components/card/card"
+import bowlsant from "../assets/images/bowlsant.webp"
+
 
 const hostel = [
   {
     id: 12,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"MARBLE",
     price:"150,000",
     bed:"4 beds",
@@ -14,7 +15,7 @@ const hostel = [
   },
   {
     id: 13,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"HAMEEDAH",
     price:"150,000",
     bed:"4 beds",
@@ -22,7 +23,7 @@ const hostel = [
   },
   {
     id: 14,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"AMOTA",
     price:"150,000",
     bed:"4 beds",
@@ -30,7 +31,7 @@ const hostel = [
   },
   {
     id: 15,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"DANTATA",
     price:"150,000",
     bed:"4 beds",
@@ -38,7 +39,7 @@ const hostel = [
   },
   {
     id: 16,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"GBADELA",
     price:"150,000",
     bed:"4 beds",
@@ -46,7 +47,7 @@ const hostel = [
   },
   {
     id: 17,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"IQRA",
     price:"150,000",
     bed:"4 beds",
@@ -54,7 +55,7 @@ const hostel = [
   },
   {
     id: 18,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"MODUPE",
     price:"150,000",
     bed:"4 beds",
@@ -62,7 +63,7 @@ const hostel = [
   },
   {
     id: 19,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"U-SHAPED",
     price:"150,000",
     bed:"4 beds",
@@ -70,7 +71,7 @@ const hostel = [
   },
   {
     id: 20,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"BOWLSANT 1",
     price:"150,000",
     bed:"4 beds",
@@ -78,7 +79,7 @@ const hostel = [
   },
   {
     id: 21,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"BOWLSANT 2",
     price:"150,000",
     bed:"4 beds",
@@ -86,7 +87,7 @@ const hostel = [
   },
   {
     id: 22,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"BOWLSANT 3",
     price:"150,000",
     bed:"4 beds",
@@ -94,7 +95,7 @@ const hostel = [
   },
   {
     id: 23,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"TROPICANA",
     price:"150,000",
     bed:"4 beds",
@@ -102,7 +103,7 @@ const hostel = [
   },
   {
     id: 24,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"OUTSIDE",
     price:"150,000",
     bed:"4 beds",
@@ -110,7 +111,7 @@ const hostel = [
   },
   {
     id: 25,
-    image: 'bowlsant.webp',
+    image: bowlsant,
     name:"BUNGALOW 3",
     price:"150,000",
     bed:"4 beds",
@@ -126,14 +127,14 @@ function FemHostel(){
              <Header />
 
 
-            <div id='find'>
+            <div id='find' className='flex flex-col items-center justify-center'>
                 <h1>Female Hostels</h1>
                 <p>Explore both general and private female hostels available for students. </p> <br />
-                     <br /> <br />    
+                <br /> <br />    
             </div>
 
             <br /> <br />  
-            <div className='host'>
+            <div className='host flex flex-col items-center justify-center'>
                 <h2>General Female Hostel</h2>
 
                   <div className='cards'>
@@ -149,7 +150,7 @@ function FemHostel(){
 
 
 
-             <div className='host'>
+             <div className='host flex flex-col items-center justify-center'>
                 <h2>Private Female Hostel</h2>
 
                 <div className='cards'>

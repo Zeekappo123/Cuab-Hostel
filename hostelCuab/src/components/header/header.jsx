@@ -1,6 +1,7 @@
 import "./header.css";
 import { Link } from "react-router-dom";
 import Button from "../button/Button";
+import logo from "../../assets/images/images.jpeg"
 
 function Header(){
     return(
@@ -9,7 +10,7 @@ function Header(){
             <div>
 
                  <Link to = "/">
-                        <img src="/images.jpeg" alt="logo"/>
+                        <img src={logo} alt="logo"/>
                  </Link>  
                 
             </div>
@@ -22,7 +23,7 @@ function Header(){
 
                    
                     <Link to = "/login">
-                        <Button value="Login"/>
+                        <Button value="Sign Out" />
                     </Link>  
                     
 
