@@ -1,5 +1,18 @@
 import bowlsant from "../src/assets/images/bowlsant.webp";
 import female from "../src/assets/images/female.jpeg"
+import amida from "../src/assets/images/amida.jpeg"
+import amota from "../src/assets/images/amota.jpeg"
+import bungalow from "../src/assets/images/bungalow.jpeg"
+import dangote from "../src/assets/images/dangote.jpeg"
+import dantata from "../src/assets/images/dantata.jpeg"
+import gbadela from "../src/assets/images/gbadela.jpeg"
+import iqra from "../src/assets/images/iqra.jpeg"
+import mahruf from "../src/assets/images/mahruf.jpeg"
+import modupe from "../src/assets/images/modupe.jpeg"
+import okeleye from "../src/assets/images/okeleye.jpeg"
+import saudi from "../src/assets/images/saudi.jpeg"
+import tijani from "../src/assets/images/tijani.jpeg"
+import toyin from "../src/assets/images/toyin.jpeg"
 import bed from "../src/assets/images/bed.jpeg"
 import room from "../src/assets/images/room.jpeg"
 import block from "../src/assets/images/block.jpeg"
@@ -8,31 +21,16 @@ import corner from "../src/assets/images/corner.jpeg"
 
 
 const hostels = [
+
+
   {
     id: 1,
-
-    name: "OKELEYE",
-    price: "150,000",
-    bed: "4 beds",
-    location: "Opposite main library",
-    image: bowlsant,
-    description: "Spacious 4-bed hostel with steady power and water.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
-  },
-
-  {
-    id: 2,
   
     name: "DANGOTE",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: bowlsant,
+    image: dangote,
     description: "Comfortable rooms close to campus with modern amenities.",
       gallery: [
       bed,
@@ -42,13 +40,13 @@ const hostels = [
     ]
   },
   {
-    id: 3,
+    id: 2,
 
     name: "TIJANI FOLAWIYO",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: bowlsant,
+    image: tijani,
     description: "Clean, quiet, and conducive environment for study.",
       gallery: [
       bed,
@@ -60,13 +58,13 @@ const hostels = [
 
 
   {
-    id: 4,
+    id: 3,
    
     name: "SAUDI",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: bowlsant,
+    image: saudi,
     description: "Affordable and convenient hostel for male students.",
       gallery: [
       bed,
@@ -77,13 +75,13 @@ const hostels = [
   },
 
   {
-    id: 5,
+    id: 4,
  
     name: "MAHRUF",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: bowlsant,
+    image: mahruf,
     description: "Peaceful atmosphere and spacious rooms.",
       gallery: [
       bed,
@@ -93,7 +91,7 @@ const hostels = [
     ]
   },
     {
-    id: 6,
+    id: 5,
  
     name: "ZAKARIYYAH",
     price: "150,000",
@@ -109,7 +107,7 @@ const hostels = [
     ]
   },
     {
-    id: 7,
+    id: 6,
 
     name: "LATEEF ADEGBITE",
     price: "150,000",
@@ -125,7 +123,7 @@ const hostels = [
     ]
   },
     {
-    id: 8,
+    id: 7,
 
     name: "PG",
     price: "150,000",
@@ -141,14 +139,31 @@ const hostels = [
     ]
   },
     {
+    id: 8,
+
+    name: "BUNGALOW ",
+    price: "150,000",
+    bed: "4 beds",
+    location: "Opposite main library",
+    image: bungalow,
+    description: "Peaceful atmosphere and spacious rooms.",
+      gallery: [
+      bed,
+      room,
+      block,
+      corner
+    ]
+  },
+   
+     {
     id: 9,
 
-    name: "BUNGALOW 1",
+    name: "OKELEYE",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: bowlsant,
-    description: "Peaceful atmosphere and spacious rooms.",
+    image: okeleye,
+    description: "Spacious 4-bed hostel with steady power and water.",
       gallery: [
       bed,
       room,
@@ -156,14 +171,16 @@ const hostels = [
       corner
     ]
   },
-    {
+
+
+     {
     id: 10,
- 
-    name: "BUNGALOW 2",
+
+    name: "OLUWATOYIN",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: bowlsant,
+    image: toyin,
     description: "Peaceful atmosphere and spacious rooms.",
       gallery: [
       bed,
@@ -172,14 +189,15 @@ const hostels = [
       corner
     ]
   },
-    {
+
+     {
     id: 11,
-    
-    name: "BUNGALOW 3",
+
+    name: "HAMEEDAH",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: bowlsant,
+    image: amida,
     description: "Peaceful atmosphere and spacious rooms.",
       gallery: [
       bed,
@@ -188,22 +206,15 @@ const hostels = [
       corner
     ]
   },
-
-
-
-
-
-
-
 
      {
     id: 12,
 
-    name: "MARBLE",
+    name: "AMOTA",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: female,
+    image: amota,
     description: "Peaceful atmosphere and spacious rooms.",
       gallery: [
       bed,
@@ -215,12 +226,12 @@ const hostels = [
 
      {
     id: 13,
-
-    name: "HAMEEDAH",
+      
+    name: "DANTATA",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: female,
+    image: dantata,
     description: "Peaceful atmosphere and spacious rooms.",
       gallery: [
       bed,
@@ -232,12 +243,12 @@ const hostels = [
 
      {
     id: 14,
-
-    name: "AMOTA",
+        
+    name: "GBADELA",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: female,
+    image: gbadela,
     description: "Peaceful atmosphere and spacious rooms.",
       gallery: [
       bed,
@@ -249,12 +260,12 @@ const hostels = [
 
      {
     id: 15,
-      
-    name: "DANTATA",
+       
+    name: "IQRA",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: female,
+    image: iqra,
     description: "Peaceful atmosphere and spacious rooms.",
       gallery: [
       bed,
@@ -266,12 +277,12 @@ const hostels = [
 
      {
     id: 16,
-        
-    name: "GBADELA",
+       
+    name: "MODUPE",
     price: "150,000",
     bed: "4 beds",
     location: "Opposite main library",
-    image: female,
+    image: modupe,
     description: "Peaceful atmosphere and spacious rooms.",
       gallery: [
       bed,
@@ -283,40 +294,6 @@ const hostels = [
 
      {
     id: 17,
-       
-    name: "IQRA",
-    price: "150,000",
-    bed: "4 beds",
-    location: "Opposite main library",
-    image: female,
-    description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
-  },
-
-     {
-    id: 18,
-       
-    name: "MODUPE",
-    price: "150,000",
-    bed: "4 beds",
-    location: "Opposite main library",
-    image: female,
-    description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
-  },
-
-     {
-    id: 19,
         
     name: "U-SHAPED",
     price: "150,000",
@@ -333,7 +310,7 @@ const hostels = [
   },
 
      {
-    id: 20,
+    id: 18,
        
     name: "BOWLSANT 1",
     price: "150,000",
@@ -350,7 +327,7 @@ const hostels = [
   },
 
      {
-    id: 21,
+    id: 19,
   
     name: "BOWLSANT 2",
     price: "150,000",
@@ -367,7 +344,7 @@ const hostels = [
   },
 
      {
-    id: 22,
+    id: 20,
         
     name: "BOWLSANT 3",
     price: "150,000",
@@ -384,7 +361,7 @@ const hostels = [
   },
 
      {
-    id: 23,
+    id: 21,
         
     name: "TROPICANA",
     price: "150,000",
@@ -401,7 +378,7 @@ const hostels = [
   },
 
      {
-    id: 24,
+    id: 22,
   
     name: "OUTSIDE",
     price: "150,000",
@@ -418,7 +395,7 @@ const hostels = [
   },
 
      {
-    id: 25,
+    id: 23,
    
     name: "CICOT",
     price: "150,000",

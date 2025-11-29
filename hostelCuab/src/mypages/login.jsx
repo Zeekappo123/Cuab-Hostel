@@ -16,7 +16,7 @@ function Login() {
 
   return (
     <div>
-      <Header />
+ 
 
       <div id='contact'>
         <h3>Login to your account</h3>

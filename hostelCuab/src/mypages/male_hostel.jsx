@@ -1,37 +1,43 @@
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
 import HostelGrid from '../components/HostelGrid'
-import bowlsant from "../assets/images/bowlsant.webp"
+import bungalow from "../assets/images/bungalow.jpeg"
+import dangote from "../assets/images/dangote.jpeg"
+import mahruf from "../assets/images/mahruf.jpeg"
+import saudi from "../assets/images/saudi.jpeg"
+import tijani from "../assets/images/tijani.jpeg"
+import bowlsant from "../assets/images/bowlsant.webp";
+
 
 const hostel = [
   {
     id: 1,
-    image: bowlsant,
-    name:"OKELEYE",
-    price:"150,000",
-    bed:"4 beds",
-    location:"opposite main library"
-  },
-  {
-    id: 2,
-    image: bowlsant,
+    image: dangote,
     name:"DANGOTE",
     price:"150,000",
     bed:"4 beds",
     location:"opposite main library"
   },
   {
-    id: 3,
-    image: bowlsant,
+    id: 2,
+    image: tijani,
     name:"TIJANI FOLAWIYO",
     price:"150,000",
     bed:"4 beds",
     location:"opposite main library"
   },
   {
-    id: 4,
-    image: bowlsant,
+    id: 3,
+    image: saudi,
     name:"SAUDI",
+    price:"150,000",
+    bed:"4 beds",
+    location:"opposite main library"
+  },
+  {
+    id: 4,
+    image: mahruf,
+    name:"MAHRUF",
     price:"150,000",
     bed:"4 beds",
     location:"opposite main library"
@@ -39,7 +45,7 @@ const hostel = [
   {
     id: 5,
     image: bowlsant,
-    name:"MAHRUF",
+    name:"ZAKARIYYAH",
     price:"150,000",
     bed:"4 beds",
     location:"opposite main library"
@@ -47,7 +53,7 @@ const hostel = [
   {
     id: 6,
     image: bowlsant,
-    name:"ZAKARIYYAH",
+    name:"LATEEF ADEGBITE",
     price:"150,000",
     bed:"4 beds",
     location:"opposite main library"
@@ -55,43 +61,20 @@ const hostel = [
   {
     id: 7,
     image: bowlsant,
-    name:"LATEEF ADEGBITE",
-    price:"150,000",
-    bed:"4 beds",
-    location:"opposite main library"
-  },
-  {
-    id: 8,
-    image: bowlsant,
     name:"PG",
     price:"150,000",
     bed:"4 beds",
     location:"opposite main library"
   },
   {
-    id: 9,
-    image: bowlsant,
-    name:"BUNGALOW 1",
-    price:"150,000",
-    bed:"4 beds",
-    location:"opposite main library"
-  },
-  {
-    id: 10,
-    image: bowlsant,
-    name:"BUNGALOW 2",
-    price:"150,000",
-    bed:"4 beds",
-    location:"opposite main library"
-  },
-  {
-    id: 11,
-    image: bowlsant,
-    name:"BUNGALOW 3",
+    id: 8,
+    image: bungalow,
+    name:"BUNGALOW ",
     price:"150,000",
     bed:"4 beds",
     location:"opposite main library"
   }
+
 ]
 
 
