@@ -64,11 +64,9 @@ function Book(){
                  
                              <h2>Document</h2>
                               
-                              <label>IMASA Number  </label> 
+                              <label>School Fees  Number  </label> 
                         <input type='number'/>  <br /> <br />  
 
-                              <label>Parent Forum Number  </label>
-                        <input type='number'/>  <br /> <br />  
 
 
                               <label>Upload Copy of School Fees Receipt  </label> 

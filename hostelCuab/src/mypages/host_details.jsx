@@ -56,19 +56,6 @@ function HostelDetails() {
 <div>
 
      
-        <div className="gallery">
-          <h4>Hostel Gallery:</h4>
-          <div className="gallery-grid">
-            {hostel.gallery && hostel.gallery.map((img, index) => (
-              <img
-                key={index}
-                src={img}
-                alt={`Hostel view ${index + 1}`}
-                onClick={() => setSelectedImage(img)}
-              />
-            ))}
-          </div>
-        </div>
      
 
       {selectedImage && (

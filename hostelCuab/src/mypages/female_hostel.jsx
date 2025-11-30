@@ -14,16 +14,9 @@ import bowlsant from "../assets/images/bowlsant.webp";
 
 
 const hostel = [
-   {
-    id: 9,
-    image: okeleye,
-    name:"OKELEYE",
-    price:"150,000",
-    bed:"4 beds",
-    location:"opposite main library"
-  },
+
   {
-    id: 10,
+    id: 9,
     image: toyin,
     name:"OLUWATOYIN",
     price:"150,000",
@@ -31,7 +24,7 @@ const hostel = [
     location:"opposite main library"
   },
   {
-    id: 11,
+    id: 10,
     image: amida,
     name:"HAMEEDAH",
     price:"150,000",
@@ -39,7 +32,7 @@ const hostel = [
     location:"opposite main library"
   },
   {
-    id: 12,
+    id: 11,
     image: amota,
     name:"AMOTA",
     price:"150,000",
@@ -47,7 +40,7 @@ const hostel = [
     location:"opposite main library"
   },
   {
-    id: 13,
+    id: 12,
     image: dantata,
     name:"DANTATA",
     price:"150,000",
@@ -55,9 +48,18 @@ const hostel = [
     location:"opposite main library"
   },
   {
-    id: 14,
+    id: 13,
     image: gbadela,
     name:"GBADELA",
+    price:"150,000",
+    bed:"4 beds",
+    location:"opposite main library"
+  },
+
+     {
+    id: 14,
+    image: okeleye,
+    name:"OKELEYE",
     price:"150,000",
     bed:"4 beds",
     location:"opposite main library"
@@ -156,7 +158,7 @@ function FemHostel(){
 
                   <div className='cards'>
                     <HostelGrid  
-                      data={hostel.filter(item => item.id < 19)} 
+                      data={hostel.filter(item => item.id >= 9  && item.id <= 13)} 
                     />
                   
                   </div>
@@ -172,7 +174,7 @@ function FemHostel(){
 
                 <div className='cards'>
                   <HostelGrid 
-                    data={hostel.filter(item => item.id>18)} 
+                    data={hostel.filter(item => item.id>=14)} 
                   />
                 
                 </div>

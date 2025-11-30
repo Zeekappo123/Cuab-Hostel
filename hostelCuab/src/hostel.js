@@ -32,13 +32,9 @@ const hostels = [
     location: "Opposite main library",
     image: dangote,
     description: "Comfortable rooms close to campus with modern amenities.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+     
   },
+
   {
     id: 2,
 
@@ -48,12 +44,7 @@ const hostels = [
     location: "Opposite main library",
     image: tijani,
     description: "Clean, quiet, and conducive environment for study.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+   
   },
 
 
@@ -66,12 +57,7 @@ const hostels = [
     location: "Opposite main library",
     image: saudi,
     description: "Affordable and convenient hostel for male students.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+     
   },
 
   {
@@ -83,12 +69,7 @@ const hostels = [
     location: "Opposite main library",
     image: mahruf,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+     
   },
     {
     id: 5,
@@ -99,12 +80,7 @@ const hostels = [
     location: "Opposite main library",
     image: bowlsant,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+    
   },
     {
     id: 6,
@@ -115,12 +91,7 @@ const hostels = [
     location: "Opposite main library",
     image: bowlsant,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+  
   },
     {
     id: 7,
@@ -131,12 +102,7 @@ const hostels = [
     location: "Opposite main library",
     image: bowlsant,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+    
   },
     {
     id: 8,
@@ -147,34 +113,15 @@ const hostels = [
     location: "Opposite main library",
     image: bungalow,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+     
   },
+
    
+   
+
+
      {
     id: 9,
-
-    name: "OKELEYE",
-    price: "150,000",
-    bed: "4 beds",
-    location: "Opposite main library",
-    image: okeleye,
-    description: "Spacious 4-bed hostel with steady power and water.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
-  },
-
-
-     {
-    id: 10,
 
     name: "OLUWATOYIN",
     price: "150,000",
@@ -182,16 +129,11 @@ const hostels = [
     location: "Opposite main library",
     image: toyin,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+     
   },
 
      {
-    id: 11,
+    id: 10,
 
     name: "HAMEEDAH",
     price: "150,000",
@@ -199,16 +141,11 @@ const hostels = [
     location: "Opposite main library",
     image: amida,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+     
   },
 
      {
-    id: 12,
+    id: 11,
 
     name: "AMOTA",
     price: "150,000",
@@ -216,16 +153,11 @@ const hostels = [
     location: "Opposite main library",
     image: amota,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+     
   },
 
      {
-    id: 13,
+    id: 12,
       
     name: "DANTATA",
     price: "150,000",
@@ -233,16 +165,11 @@ const hostels = [
     location: "Opposite main library",
     image: dantata,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+     
   },
 
      {
-    id: 14,
+    id: 13,
         
     name: "GBADELA",
     price: "150,000",
@@ -250,16 +177,11 @@ const hostels = [
     location: "Opposite main library",
     image: gbadela,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+   
   },
 
      {
-    id: 15,
+    id: 14,
        
     name: "IQRA",
     price: "150,000",
@@ -267,12 +189,19 @@ const hostels = [
     location: "Opposite main library",
     image: iqra,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+    
+  },
+
+    {
+    id: 15,
+
+    name: "OKELEYE",
+    price: "150,000",
+    bed: "4 beds",
+    location: "Opposite main library",
+    image: okeleye,
+    description: "Spacious 4-bed hostel with steady power and water.",
+   
   },
 
      {
@@ -284,12 +213,7 @@ const hostels = [
     location: "Opposite main library",
     image: modupe,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+    
   },
 
      {
@@ -301,12 +225,7 @@ const hostels = [
     location: "Opposite main library",
     image: female,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+    
   },
 
      {
@@ -318,12 +237,7 @@ const hostels = [
     location: "Opposite main library",
     image: female,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+     
   },
 
      {
@@ -335,12 +249,7 @@ const hostels = [
     location: "Opposite main library",
     image: female,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+     
   },
 
      {
@@ -352,12 +261,7 @@ const hostels = [
     location: "Opposite main library",
     image: female,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+    
   },
 
      {
@@ -369,12 +273,7 @@ const hostels = [
     location: "Opposite main library",
     image: female,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+    
   },
 
      {
@@ -386,12 +285,7 @@ const hostels = [
     location: "Opposite main library",
     image: female,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+    
   },
 
      {
@@ -403,12 +297,7 @@ const hostels = [
     location: "Opposite main library",
     image:female,
     description: "Peaceful atmosphere and spacious rooms.",
-      gallery: [
-      bed,
-      room,
-      block,
-      corner
-    ]
+    
   }
 ];
 

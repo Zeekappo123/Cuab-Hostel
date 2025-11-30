@@ -28,24 +28,21 @@ function Register() {
       "Accounting",
       "Economics",
           "Islamic Studies",
-      "Business Administration"
+      "Business Administration",
+      "Mass Communication",
+      "International Relation and Poltical Science"
     ],
     "College of Environmental Sciences": [
-      "Architecture",
-      "Environmental Management",
-      "Urban Planning"
+      "Architecture"
     ],
     "College of Health Sciences": [
       "Nursing",
       "Physiology",
       "Anatomy",
-      "Biochemistry"
     ],
     "College of Natural and Applied Sciences": [
-      "Physics",
-      "Chemistry",
-      "Biology",
-      "Mathematics"
+     "Biochemistry",
+     "Microbiology"
     ],
     "Bola Ajibola College of Law": [
       "Law"

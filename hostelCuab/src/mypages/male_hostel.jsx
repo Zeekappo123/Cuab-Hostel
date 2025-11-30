@@ -18,6 +18,7 @@ const hostel = [
     bed:"4 beds",
     location:"opposite main library"
   },
+
   {
     id: 2,
     image: tijani,
@@ -26,6 +27,7 @@ const hostel = [
     bed:"4 beds",
     location:"opposite main library"
   },
+
   {
     id: 3,
     image: saudi,
@@ -34,6 +36,7 @@ const hostel = [
     bed:"4 beds",
     location:"opposite main library"
   },
+
   {
     id: 4,
     image: mahruf,
@@ -42,6 +45,7 @@ const hostel = [
     bed:"4 beds",
     location:"opposite main library"
   },
+
   {
     id: 5,
     image: bowlsant,
@@ -50,6 +54,7 @@ const hostel = [
     bed:"4 beds",
     location:"opposite main library"
   },
+
   {
     id: 6,
     image: bowlsant,
@@ -58,6 +63,7 @@ const hostel = [
     bed:"4 beds",
     location:"opposite main library"
   },
+
   {
     id: 7,
     image: bowlsant,
@@ -66,6 +72,7 @@ const hostel = [
     bed:"4 beds",
     location:"opposite main library"
   },
+  
   {
     id: 8,
     image: bungalow,
